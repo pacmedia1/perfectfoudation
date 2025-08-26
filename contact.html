@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Perfect Foundation Academy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>Perfect<span>Foundation</span></h1>
+                    </a>
+                </div>
+                <nav>
+                    <ul class="main-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="news.html">News & Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="timetable.html">Timetable</a></li>
+                        <li><a href="fees.html">Fees</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <span>Contact</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>We're here to answer your questions and help you find the best educational path for your child.</p>
+            </div>
+            <div class="contact-cards">
+                <div class="contact-card animate-on-scroll fade-in-up stagger-1">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>Top Radio, Oshiuman<br>Accra, Ghana</p>
+                    <a href="#map" class="contact-link">View on Map</a>
+                </div>
+
+                <div class="contact-card animate-on-scroll fade-in-up stagger-2">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>+233 244986221</p>
+                    <a href="tel:+233244986221" class="contact-link">Call Now</a>
+                </div>
+
+                <div class="contact-card animate-on-scroll fade-in-up stagger-3">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>perfectfoundationacademy@gmail.com</p>
+                    <a href="mailto:perfectfoundationacademy@gmail.com" class="contact-link">Send Email</a>
+                </div>
+
+                <div class="contact-card animate-on-scroll fade-in-up stagger-4">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Friday<br>6:00 AM - 5:00 PM</p>
+                    <span class="contact-link">Always Available</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Forms Section -->
+    <section class="contact-forms bg-light">
+        <div class="container">
+            <div class="forms-wrapper">
+                <!-- General Inquiry Form -->
+                <div class="form-section">
+                    <div class="form-header">
+                        <h3><i class="fas fa-comments"></i> General Inquiry</h3>
+                        <p>Have questions about our programs, fees, or admission process? Send us a message!</p>
+                    </div>
+                    <form class="contact-form" id="general-inquiry-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="inquiry-name">Full Name *</label>
+                                <input type="text" id="inquiry-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inquiry-email">Email Address *</label>
+                                <input type="email" id="inquiry-email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="inquiry-phone">Phone Number</label>
+                                <input type="tel" id="inquiry-phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="inquiry-subject">Subject *</label>
+                                <select id="inquiry-subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="admission">Admission Information</option>
+                                    <option value="fees">Fees & Payment</option>
+                                    <option value="curriculum">Curriculum & Programs</option>
+                                    <option value="facilities">School Facilities</option>
+                                    <option value="transportation">Transportation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inquiry-message">Message *</label>
+                            <textarea id="inquiry-message" name="message" rows="5" required placeholder="Please describe your inquiry in detail..."></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- School Visit Request -->
+                <div class="form-section">
+                    <div class="form-header">
+                        <h3><i class="fas fa-calendar-check"></i> Schedule a Visit</h3>
+                        <p>Book a personalized tour of our facilities and meet our dedicated staff.</p>
+                    </div>
+                    <form class="contact-form" id="visit-request-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="visit-name">Parent/Guardian Name *</label>
+                                <input type="text" id="visit-name" name="parent_name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="visit-email">Email Address *</label>
+                                <input type="email" id="visit-email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="visit-phone">Phone Number *</label>
+                                <input type="tel" id="visit-phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="child-age">Child's Age</label>
+                                <select id="child-age" name="child_age">
+                                    <option value="">Select age range</option>
+                                    <option value="2-3">2-3 years (Toddler)</option>
+                                    <option value="3-4">3-4 years (Nursery)</option>
+                                    <option value="4-5">4-5 years (KG 1)</option>
+                                    <option value="5-6">5-6 years (KG 2)</option>
+                                    <option value="6-12">6-12 years (Basic)</option>
+                                    <option value="12-15">12-15 years (JHS)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="visit-date">Preferred Date *</label>
+                                <input type="date" id="visit-date" name="preferred_date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="visit-time">Preferred Time *</label>
+                                <select id="visit-time" name="preferred_time" required>
+                                    <option value="">Select time</option>
+                                    <option value="9:00 AM">9:00 AM</option>
+                                    <option value="10:00 AM">10:00 AM</option>
+                                    <option value="11:00 AM">11:00 AM</option>
+                                    <option value="2:00 PM">2:00 PM</option>
+                                    <option value="3:00 PM">3:00 PM</option>
+                                    <option value="4:00 PM">4:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="visit-notes">Special Requests or Notes</label>
+                            <textarea id="visit-notes" name="notes" rows="3" placeholder="Any specific areas you'd like to see or questions you have..."></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">
+                            <i class="fas fa-calendar-plus"></i> Schedule Visit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Section -->
+    <section class="quick-contact">
+        <div class="container">
+            <div class="quick-contact-wrapper">
+                <div class="quick-contact-info">
+                    <h3>Need Immediate Assistance?</h3>
+                    <p>For urgent inquiries or immediate assistance, contact us directly through these channels:</p>
+                    <div class="quick-contact-methods">
+                        <a href="tel:+233244986221" class="quick-contact-btn phone">
+                            <i class="fas fa-phone"></i>
+                            <span>Call Now</span>
+                        </a>
+                        <a href="https://wa.me/233244986221" target="_blank" class="quick-contact-btn whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="mailto:perfectfoundationacademy@gmail.com" class="quick-contact-btn email">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="emergency-contact">
+                    <div class="emergency-card">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h4>Emergency Contact</h4>
+                        <p>For school emergencies during school hours</p>
+                        <a href="tel:+233244986221" class="emergency-number">+233 244986221</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" id="map">
+        <div class="container">
+            <div class="section-title">
+                <h2>Find Us</h2>
+                <p>Located in the heart of Accra, easily accessible by public and private transportation.</p>
+            </div>
+        </div>
+        <div class="map-container">
+            <div class="map-placeholder">
+                <div class="map-content">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Perfect Foundation Academy</h3>
+                    <p>Top Radio, Oshiuman, Accra</p>
+                    <div class="map-actions">
+                        <a href="https://maps.google.com/?q=Top+Radio+Oshiuman+Accra" target="_blank" class="btn primary-btn">
+                            <i class="fas fa-directions"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="location-details">
+                <div class="location-info">
+                    <h3>Transportation & Accessibility</h3>
+                    <div class="transport-options">
+                        <div class="transport-item">
+                            <i class="fas fa-bus"></i>
+                            <div>
+                                <h4>Public Transport</h4>
+                                <p>Accessible via trotro and bus routes. Multiple stops within walking distance.</p>
+                            </div>
+                        </div>
+                        <div class="transport-item">
+                            <i class="fas fa-car"></i>
+                            <div>
+                                <h4>Private Vehicle</h4>
+                                <p>Ample parking space available. Easy access from major roads.</p>
+                            </div>
+                        </div>
+                        <div class="transport-item">
+                            <i class="fas fa-wheelchair"></i>
+                            <div>
+                                <h4>Accessibility</h4>
+                                <p>Wheelchair accessible facilities with ramps and accessible restrooms.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nearby-landmarks">
+                    <h3>Nearby Landmarks</h3>
+                    <ul>
+                        <li><i class="fas fa-hospital"></i> Oshiuman Health Center - 5 mins walk</li>
+                        <li><i class="fas fa-shopping-cart"></i> Top Radio Market - 2 mins walk</li>
+                        <li><i class="fas fa-gas-pump"></i> Shell Fuel Station - 3 mins walk</li>
+                        <li><i class="fas fa-church"></i> Methodist Church - 7 mins walk</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="contact-faq bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions about contacting us and visiting our school.</p>
+            </div>
+            <div class="faq-wrapper">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What is the best time to visit the school?</h4>
+                        <div class="toggle-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The best time to visit is during school hours (8:00 AM - 3:00 PM) on weekdays when you can observe classes in session. We recommend scheduling visits between 9:00 AM - 11:00 AM or 2:00 PM - 4:00 PM to avoid disrupting lunch and break times.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>How quickly do you respond to inquiries?</h4>
+                        <div class="toggle-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We typically respond to email inquiries within 24 hours during business days. Phone calls are answered immediately during office hours (6:00 AM - 5:00 PM). For urgent matters, WhatsApp messages are usually responded to within a few hours.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Can I visit without an appointment?</h4>
+                        <div class="toggle-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While walk-ins are welcome, we highly recommend scheduling an appointment to ensure our admissions team is available to give you personalized attention and a comprehensive tour of our facilities.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What should I bring during my visit?</h4>
+                        <div class="toggle-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Please bring a list of questions you'd like to ask, any previous school records if transferring, and your child if possible. We also recommend bringing a notebook to jot down important information during the tour.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Do you offer virtual tours or online consultations?</h4>
+                        <div class="toggle-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer virtual school tours via video call for parents who cannot visit in person. We can also conduct online consultations to discuss your child's educational needs and our programs. Contact us to schedule a virtual meeting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-signup">
+        <div class="container">
+            <div class="newsletter-wrapper">
+                <div class="newsletter-content">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for the latest news, events, and educational tips.</p>
+                </div>
+                <form class="newsletter-form" id="newsletter-form">
+                    <div class="newsletter-input">
+                        <input type="email" placeholder="Enter your email address" name="newsletter_email" required>
+                        <button type="submit" class="btn primary-btn">
+                            <i class="fas fa-paper-plane"></i> Subscribe
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-about">
+                    <h3>Perfect Foundation Academy</h3>
+                    <p>Providing quality education for children aged 2-14 years in a nurturing and stimulating environment.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link tiktok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="news.html">News & Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Top Radio, Oshiuman, Accra</p>
+                    <p><i class="fas fa-phone"></i> +233 244986221</p>
+                    <p><i class="fas fa-envelope"></i> perfectfoundationacademy@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> 6:00 AM – 5:00 PM (Mon-Fri)</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Perfect Foundation Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

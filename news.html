@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Events - Perfect Foundation Academy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>Perfect<span>Foundation</span></h1>
+                    </a>
+                </div>
+                <nav>
+                    <ul class="main-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li class="active"><a href="news.html">News & Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="timetable.html">Timetable</a></li>
+                        <li><a href="fees.html">Fees</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h2>News & Events</h2>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <span>News & Events</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Events Overview Section -->
+    <section class="news-overview">
+        <div class="container">
+            <div class="section-title">
+                <h2>Stay Updated</h2>
+                <p>Keep up with the latest happenings at Perfect Foundation Academy.</p>
+            </div>
+            <div class="news-intro">
+                <p>At Perfect Foundation Academy, we believe in keeping our community informed about all the exciting activities, achievements, and upcoming events. This page is your go-to resource for staying connected with our school community.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Filter Section -->
+    <section class="news-filter bg-light">
+        <div class="container">
+            <div class="filter-wrapper">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="news">News</button>
+                    <button class="filter-btn" data-filter="events">Events</button>
+                    <button class="filter-btn" data-filter="announcements">Announcements</button>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="newsSearch" placeholder="Search news & events...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Grid Section -->
+    <section class="news-grid">
+        <div class="container">
+            <div class="news-wrapper">
+                <!-- News Item 1 -->
+                <div class="news-item" data-category="events">
+                    <div class="news-image">
+                        <img src="photo_2025-08-23_14-37-02.jpg" alt="Annual Sports Day">
+                        <div class="news-date">
+                            <span class="day">15</span>
+                            <span class="month">Oct</span>
+                        </div>
+                        <div class="news-category events">Event</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Annual Sports Day 2025</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar-alt"></i> October 15, 2025</span>
+                            <span><i class="fas fa-map-marker-alt"></i> School Grounds</span>
+                        </div>
+                        <p>Join us for our Annual Sports Day celebration where students will showcase their athletic abilities through various sporting events and competitions.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- News Item 2 -->
+                <div class="news-item" data-category="news">
+                    <div class="news-image">
+                        <img src="photo_2025-08-23_14-37-07.jpg" alt="Academic Excellence Awards">
+                        <div class="news-date">
+                            <span class="day">28</span>
+                            <span class="month">Sep</span>
+                        </div>
+                        <div class="news-category news">News</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Students Shine at Regional Science Competition</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar-alt"></i> September 28, 2025</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <p>We are proud to announce that our students won first place in the Regional Science Competition with their innovative project on renewable energy.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- News Item 3 -->
+                <div class="news-item" data-category="announcements">
+                    <div class="news-image">
+                        <img src="photo_2025-08-23_14-37-11.jpg" alt="New Curriculum Announcement">
+                        <div class="news-date">
+                            <span class="day">10</span>
+                            <span class="month">Sep</span>
+                        </div>
+                        <div class="news-category announcements">Announcement</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>New STEM Curriculum Launch</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar-alt"></i> September 10, 2025</span>
+                            <span><i class="fas fa-user"></i> Principal</span>
+                        </div>
+                        <p>We are excited to announce the launch of our enhanced STEM curriculum for the 2025-2026 academic year, featuring new robotics and coding programs.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- News Item 4 -->
+                <div class="news-item" data-category="events">
+                    <div class="news-image">
+                        <img src="photo_2025-08-23_14-37-17.jpg" alt="Parent-Teacher Conference">
+                        <div class="news-date">
+                            <span class="day">05</span>
+                            <span class="month">Sep</span>
+                        </div>
+                        <div class="news-category events">Event</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Parent-Teacher Conference</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar-alt"></i> September 5, 2025</span>
+                            <span><i class="fas fa-map-marker-alt"></i> School Auditorium</span>
+                        </div>
+                        <p>We invite all parents to attend our first Parent-Teacher Conference of the academic year to discuss your child's progress and development.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- News Item 5 -->
+                <div class="news-item" data-category="news">
+                    <div class="news-image">
+                        <img src="photo_2025-08-23_14-37-23.jpg" alt="New Library Books">
+                        <div class="news-date">
+                            <span class="day">25</span>
+                            <span class="month">Aug</span>
+                        </div>
+                        <div class="news-category news">News</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Library Expansion Project Completed</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar-alt"></i> August 25, 2025</span>
+                            <span><i class="fas fa-user"></i> Librarian</span>
+                        </div>
+                        <p>We are delighted to announce the completion of our library expansion project, which includes over 1,000 new books and a dedicated digital learning section.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- News Item 6 -->
+                <div class="news-item" data-category="announcements">
+                    <div class="news-image">
+                        <img src="photo_2025-08-23_14-37-28.jpg" alt="School Holiday Announcement">
+                        <div class="news-date">
+                            <span class="day">15</span>
+                            <span class="month">Aug</span>
+                        </div>
+                        <div class="news-category announcements">Announcement</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Mid-Term Break Schedule</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar-alt"></i> August 15, 2025</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <p>Please note that the school will be closed for mid-term break from October 20-24, 2025. Classes will resume on October 27, 2025.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- News Item 7 -->
+                <div class="news-item" data-category="events">
+                    <div class="news-image">
+                        <img src="photo_2025-08-23_14-37-33.jpg" alt="Cultural Day Celebration">
+                        <div class="news-date">
+                            <span class="day">10</span>
+                            <span class="month">Aug</span>
+                        </div>
+                        <div class="news-category events">Event</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Cultural Day Celebration</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar-alt"></i> November 10, 2025</span>
+                            <span><i class="fas fa-map-marker-alt"></i> School Grounds</span>
+                        </div>
+                        <p>Join us for a day of cultural celebration as we showcase the diverse heritage of our school community through music, dance, food, and traditional attire.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- News Item 8 -->
+                <div class="news-item" data-category="news">
+                    <div class="news-image">
+                        <img src="photo_2025-08-23_14-37-39.jpg" alt="New Playground Equipment">
+                        <div class="news-date">
+                            <span class="day">05</span>
+                            <span class="month">Aug</span>
+                        </div>
+                        <div class="news-category news">News</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>New Playground Equipment Installed</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar-alt"></i> August 5, 2025</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <p>We are excited to announce the installation of new playground equipment, providing our students with enhanced recreational facilities during break times.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- News Item 9 -->
+                <div class="news-item" data-category="announcements">
+                    <div class="news-image">
+                        <img src="photo_2025-08-23_14-37-44.jpg" alt="Scholarship Program">
+                        <div class="news-date">
+                            <span class="day">01</span>
+                            <span class="month">Aug</span>
+                        </div>
+                        <div class="news-category announcements">Announcement</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Scholarship Program for 2026 Academic Year</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar-alt"></i> August 1, 2025</span>
+                            <span><i class="fas fa-user"></i> Principal</span>
+                        </div>
+                        <p>Applications are now open for our merit-based scholarship program for the 2026 academic year. Deadline for submission is December 15, 2025.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#" class="next">Next <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section class="upcoming-events bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Upcoming Events</h2>
+                <p>Mark your calendars for these important dates.</p>
+            </div>
+            <div class="events-calendar">
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="month">OCT</span>
+                        <span class="day">15</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Annual Sports Day</h3>
+                        <p><i class="fas fa-clock"></i> 8:00 AM - 4:00 PM</p>
+                        <p><i class="fas fa-map-marker-alt"></i> School Grounds</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="month">NOV</span>
+                        <span class="day">10</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Cultural Day Celebration</h3>
+                        <p><i class="fas fa-clock"></i> 9:00 AM - 3:00 PM</p>
+                        <p><i class="fas fa-map-marker-alt"></i> School Grounds</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="month">NOV</span>
+                        <span class="day">25</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Science Fair</h3>
+                        <p><i class="fas fa-clock"></i> 10:00 AM - 2:00 PM</p>
+                        <p><i class="fas fa-map-marker-alt"></i> School Auditorium</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="month">DEC</span>
+                        <span class="day">10</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>End of Term Concert</h3>
+                        <p><i class="fas fa-clock"></i> 4:00 PM - 7:00 PM</p>
+                        <p><i class="fas fa-map-marker-alt"></i> School Auditorium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-wrapper">
+                <div class="newsletter-content">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Stay updated with the latest news, events, and announcements from Perfect Foundation Academy.</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn primary-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-about">
+                    <h3>Perfect Foundation Academy</h3>
+                    <p>Providing quality education for children aged 2-14 years in a nurturing and stimulating environment.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="news.html">News & Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Top Radio, Oshiuman, Accra</p>
+                    <p><i class="fas fa-phone"></i> +233 XX XXX XXXX</p>
+                    <p><i class="fas fa-envelope"></i> perfectfoundationacademy@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> 6:00 AM – 5:00 PM (Mon-Fri)</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Perfect Foundation Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // News Filter Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const newsItems = document.querySelectorAll('.news-item');
+            const searchInput = document.getElementById('newsSearch');
+            
+            // Filter by category
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    newsItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Search functionality
+            searchInput.addEventListener('keyup', function() {
+                const searchTerm = this.value.toLowerCase();
+                
+                newsItems.forEach(item => {
+                    const title = item.querySelector('h3').textContent.toLowerCase();
+                    const content = item.querySelector('p').textContent.toLowerCase();
+                    
+                    if (title.includes(searchTerm) || content.includes(searchTerm)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

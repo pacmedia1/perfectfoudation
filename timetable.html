@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable - Perfect Foundation Academy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>Perfect<span>Foundation</span></h1>
+                    </a>
+                </div>
+                <nav>
+                    <ul class="main-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="news.html">News & Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li class="active"><a href="timetable.html">Timetable</a></li>
+                        <li><a href="fees.html">Fees</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h2>School Timetable</h2>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <span>Timetable</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timetable Overview Section -->
+    <section class="timetable-overview">
+        <div class="container">
+            <div class="section-title">
+                <h2>Weekly Schedule</h2>
+                <p>View our comprehensive weekly timetable for all classes and activities.</p>
+            </div>
+            <div class="timetable-intro">
+                <p>Our structured timetable ensures a balanced approach to learning, incorporating academic subjects, creative activities, physical education, and rest periods. Each class follows an age-appropriate schedule designed to maximize learning outcomes while maintaining student engagement.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Class Filter Section -->
+    <section class="timetable-filter bg-light">
+        <div class="container">
+            <div class="filter-wrapper">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Classes</button>
+                    <button class="filter-btn" data-filter="toddler">Toddler</button>
+                    <button class="filter-btn" data-filter="nursery">Nursery</button>
+                    <button class="filter-btn" data-filter="kg1">KG 1</button>
+                    <button class="filter-btn" data-filter="kg2">KG 2</button>
+                    <button class="filter-btn" data-filter="basic">Basic 1-6</button>
+                    <button class="filter-btn" data-filter="jhs">JHS 1-3</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timetable Grid Section -->
+    <section class="timetable-grid">
+        <div class="container">
+            <!-- Toddler Timetable -->
+            <div class="timetable-section" data-class="toddler">
+                <div class="timetable-header">
+                    <h3>Toddler Class (Ages 2-3)</h3>
+                    <span class="class-badge toddler">Toddler</span>
+                </div>
+                <div class="timetable-table-wrapper">
+                    <table class="timetable-table">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Monday</th>
+                                <th>Tuesday</th>
+                                <th>Wednesday</th>
+                                <th>Thursday</th>
+                                <th>Friday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="time-slot">8:00 - 8:30</td>
+                                <td class="activity arrival">Arrival & Free Play</td>
+                                <td class="activity arrival">Arrival & Free Play</td>
+                                <td class="activity arrival">Arrival & Free Play</td>
+                                <td class="activity arrival">Arrival & Free Play</td>
+                                <td class="activity arrival">Arrival & Free Play</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">8:30 - 9:00</td>
+                                <td class="activity circle">Circle Time</td>
+                                <td class="activity circle">Circle Time</td>
+                                <td class="activity circle">Circle Time</td>
+                                <td class="activity circle">Circle Time</td>
+                                <td class="activity circle">Circle Time</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">9:00 - 9:30</td>
+                                <td class="activity snack">Snack Time</td>
+                                <td class="activity snack">Snack Time</td>
+                                <td class="activity snack">Snack Time</td>
+                                <td class="activity snack">Snack Time</td>
+                                <td class="activity snack">Snack Time</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">9:30 - 10:30</td>
+                                <td class="activity sensory">Sensory Play</td>
+                                <td class="activity art">Art & Craft</td>
+                                <td class="activity music">Music & Movement</td>
+                                <td class="activity outdoor">Outdoor Play</td>
+                                <td class="activity story">Story Time</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">10:30 - 11:00</td>
+                                <td class="activity outdoor">Outdoor Play</td>
+                                <td class="activity outdoor">Outdoor Play</td>
+                                <td class="activity outdoor">Outdoor Play</td>
+                                <td class="activity art">Art & Craft</td>
+                                <td class="activity outdoor">Outdoor Play</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">11:00 - 12:00</td>
+                                <td class="activity lunch">Lunch Time</td>
+                                <td class="activity lunch">Lunch Time</td>
+                                <td class="activity lunch">Lunch Time</td>
+                                <td class="activity lunch">Lunch Time</td>
+                                <td class="activity lunch">Lunch Time</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">12:00 - 1:00</td>
+                                <td class="activity rest">Rest Time</td>
+                                <td class="activity rest">Rest Time</td>
+                                <td class="activity rest">Rest Time</td>
+                                <td class="activity rest">Rest Time</td>
+                                <td class="activity rest">Rest Time</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">1:00 - 2:00</td>
+                                <td class="activity play">Free Play</td>
+                                <td class="activity sensory">Sensory Activities</td>
+                                <td class="activity play">Free Play</td>
+                                <td class="activity music">Music Time</td>
+                                <td class="activity play">Free Play</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Basic Classes Timetable -->
+            <div class="timetable-section" data-class="basic">
+                <div class="timetable-header">
+                    <h3>Basic Classes (Ages 6-12)</h3>
+                    <span class="class-badge basic">Basic 1-6</span>
+                </div>
+                <div class="timetable-table-wrapper">
+                    <table class="timetable-table">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Monday</th>
+                                <th>Tuesday</th>
+                                <th>Wednesday</th>
+                                <th>Thursday</th>
+                                <th>Friday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="time-slot">7:30 - 8:00</td>
+                                <td class="activity assembly">Morning Assembly</td>
+                                <td class="activity assembly">Morning Assembly</td>
+                                <td class="activity assembly">Morning Assembly</td>
+                                <td class="activity assembly">Morning Assembly</td>
+                                <td class="activity assembly">Morning Assembly</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">8:00 - 8:45</td>
+                                <td class="activity english">English Language</td>
+                                <td class="activity math">Mathematics</td>
+                                <td class="activity english">English Language</td>
+                                <td class="activity math">Mathematics</td>
+                                <td class="activity english">English Language</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">8:45 - 9:30</td>
+                                <td class="activity math">Mathematics</td>
+                                <td class="activity english">English Language</td>
+                                <td class="activity math">Mathematics</td>
+                                <td class="activity english">English Language</td>
+                                <td class="activity math">Mathematics</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">9:30 - 10:15</td>
+                                <td class="activity science">Integrated Science</td>
+                                <td class="activity social">Social Studies</td>
+                                <td class="activity science">Integrated Science</td>
+                                <td class="activity social">Social Studies</td>
+                                <td class="activity science">Integrated Science</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">10:15 - 10:45</td>
+                                <td class="activity break">Break Time</td>
+                                <td class="activity break">Break Time</td>
+                                <td class="activity break">Break Time</td>
+                                <td class="activity break">Break Time</td>
+                                <td class="activity break">Break Time</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">10:45 - 11:30</td>
+                                <td class="activity rme">Religious & Moral Education</td>
+                                <td class="activity ict">ICT</td>
+                                <td class="activity french">French</td>
+                                <td class="activity ict">ICT</td>
+                                <td class="activity rme">Religious & Moral Education</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">11:30 - 12:15</td>
+                                <td class="activity creative">Creative Arts</td>
+                                <td class="activity pe">Physical Education</td>
+                                <td class="activity music">Music & Dance</td>
+                                <td class="activity pe">Physical Education</td>
+                                <td class="activity creative">Creative Arts</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">12:15 - 1:00</td>
+                                <td class="activity pe">Physical Education</td>
+                                <td class="activity creative">Creative Arts</td>
+                                <td class="activity pe">Physical Education</td>
+                                <td class="activity music">Music & Dance</td>
+                                <td class="activity library">Library Studies</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">1:00 - 2:00</td>
+                                <td class="activity lunch">Lunch Break</td>
+                                <td class="activity lunch">Lunch Break</td>
+                                <td class="activity lunch">Lunch Break</td>
+                                <td class="activity lunch">Lunch Break</td>
+                                <td class="activity lunch">Lunch Break</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">2:00 - 2:45</td>
+                                <td class="activity study">Study Period</td>
+                                <td class="activity homework">Assignment Time</td>
+                                <td class="activity study">Remedial Classes</td>
+                                <td class="activity homework">Project Work</td>
+                                <td class="activity review">Weekly Review</td>
+                            </tr>
+                            <tr>
+                                <td class="time-slot">2:45 - 3:30</td>
+                                <td class="activity clubs">Club Activities</td>
+                                <td class="activity clubs">Extra-curricular</td>
+                                <td class="activity clubs">Club Activities</td>
+                                <td class="activity clubs">Extra-curricular</td>
+                                <td class="activity closing">Closing Assembly</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- School Hours Section -->
+    <section class="school-hours bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>School Hours & Information</h2>
+                <p>Important timings and guidelines for parents and students.</p>
+            </div>
+            <div class="hours-wrapper">
+                <div class="hours-card">
+                    <div class="icon-box blue">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>School Hours</h3>
+                    <div class="hours-list">
+                        <p><strong>Toddler - KG 2:</strong> 8:00 AM - 2:30 PM</p>
+                        <p><strong>Basic 1-6:</strong> 7:30 AM - 3:30 PM</p>
+                        <p><strong>JHS 1-3:</strong> 7:30 AM - 4:00 PM</p>
+                    </div>
+                </div>
+                <div class="hours-card">
+                    <div class="icon-box pink">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Attendance Policy</h3>
+                    <ul>
+                        <li>Students should arrive 15 minutes before classes begin</li>
+                        <li>Late arrivals must report to the office</li>
+                        <li>95% attendance required for promotion</li>
+                        <li>Medical certificates required for extended absence</li>
+                    </ul>
+                </div>
+                <div class="hours-card">
+                    <div class="icon-box yellow">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Meal Times</h3>
+                    <div class="meal-schedule">
+                        <p><strong>Snack Break:</strong> 9:30 - 10:00 AM</p>
+                        <p><strong>Lunch Time:</strong> 12:00 - 1:00 PM</p>
+                        <p><strong>Afternoon Snack:</strong> 2:30 - 2:45 PM</p>
+                        <p><em>Nutritious meals provided daily</em></p>
+                    </div>
+                </div>
+                <div class="hours-card">
+                    <div class="icon-box green">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <h3>Transportation</h3>
+                    <ul>
+                        <li>School bus service available</li>
+                        <li>Multiple routes covering Accra</li>
+                        <li>Trained drivers and bus monitors</li>
+                        <li>GPS tracking for parent peace of mind</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-wrapper">
+                <div class="cta-content">
+                    <h2>Need a Custom Schedule?</h2>
+                    <p>Contact us to discuss flexible timing options for your child's specific needs.</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn primary-btn">Contact Us</a>
+                    <a href="admissions.html" class="btn secondary-btn">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-about">
+                    <h3>Perfect Foundation Academy</h3>
+                    <p>Providing quality education for children aged 2-14 years in a nurturing and stimulating environment.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link tiktok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="news.html">News & Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Top Radio, Oshiuman, Accra</p>
+                    <p><i class="fas fa-phone"></i> +233 244986221</p>
+                    <p><i class="fas fa-envelope"></i> perfectfoundationacademy@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> 6:00 AM – 5:00 PM (Mon-Fri)</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Perfect Foundation Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
